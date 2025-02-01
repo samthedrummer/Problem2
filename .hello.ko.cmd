@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/problem2/hello.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/problem2/hello.ko /home/ubuntu/problem2/hello.o /home/ubuntu/problem2/hello.mod.o
